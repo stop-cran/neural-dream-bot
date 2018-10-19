@@ -1,0 +1,5 @@
+GoogleAppEngineCloudStorageClient
+google-api-python-client
+requests
+oauth2client
+enum34

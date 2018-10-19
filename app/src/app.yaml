@@ -1,0 +1,38 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+
+# [START handlers]
+handlers:
+- url: /TG.*
+  script: main.app
+- url: /Callback.*
+  script: main.app
+
+- url: /.*
+  script: main.app
+  login: admin
+  
+libraries:
+- name: webapp2
+  version: latest
+- name: PIL
+  version: latest
+- name: six
+  version: latest
+- name: numpy
+  version: 1.6.1
+- name: ssl
+  version: latest
+- name: enum
+  version: latest
+
+#[START env]
+env_variables:
+  PROJECT_ID: neuralstylebot
+  API_TOKEN: 123456789:94cud5g8ijn85tgje498fvejh8ejve8e48r
+  HOOK_TOKEN: 6byyy_ftgfh_gdg5etFr5e5vtr5yh44
+  TASK_CALLBACK_TOKEN: g5ryrdysg-ftyf6yf4ff-rtve
+  SUPPORT_CHAT_ID: -123456789
+#[END env]

@@ -1,0 +1,72 @@
+group_hello:
+  en: "Hello everyone! Send me an image you want to (re)style and an image you want to take style from. Experiment with /settings to gain different effects."
+  ru: "Всем привет! Я могу переносить стиль с одной картинки на другую. Для этого пришлите мне картинку, которую хотите стилизовать, а затем другую картинку, откуда я скопирую стиль. Экспериментируйте с настройками (/settings) чтобы добиться разнообразных эффектов."
+bot_hello:
+  en: "Hello {name}! Let's start preparing a machine rebellion together! However, if you don't have better ideas right now, you can send me an image you want to (re)style and at least one image you want to take style from."
+  ru: "Hello {name}! Let's start preparing a machine rebellion together! However, if you don't have better ideas right now, you can send me an image you want to (re)style and at least one image you want to take style from."
+user_hello:
+  en: "Hello {name}! Send me an image you want to (re)style and an image you want to take style from. Experiment with /settings to gain different effects."
+  ru: "Привет, {name}! Я могу переносить стиль с одной картинки на другую. Для этого пришли мне картинку, которую ты хочешь стилизовать, а затем другую картинку, откуда я скопирую стиль. Экспериментируй с настройками (/settings) чтобы добиться разнообразных эффектов."
+unknown_settings_command:
+  en: "This settings update command is not supported.\nHere is the correct format:\n\n*style_weight* or *style_scale* or *num_iter* or *img_size*=_a correct value_"
+  ru: "Это команда на изменение настроек, но она непонятная.\nВот то, что поддерживается:\n\n*style_weight* или *style_scale* или *num_iter* или *img_size*=_правильное значение_"
+support_help:
+  en: "Ask your question, putting a keyword {keyword} at the beginning."
+  ru: "Напиши текст вопроса, начав его с ключевого слова {keyword}."
+support_question_accepted:
+  en: "I've forwarded your question to my support team. Once they have an answer, I send it to you."
+  ru: "Я передал твой вопрос в службу поддержку. Как ответят, я сразу перешлю тебе ответ."
+no_such_a_command:
+  en: "No such a command. You can /start from the beginning."
+  ru: "Такой команды нет. Чтобы начать заново, жми /start."
+too_many_queries:
+  en: "Too many requests a day - {count} is a maximum."
+  ru: "Воу-воу, не так быстро. Пока поддерживается {count} запросов за день."
+send_single_style_prompt:
+  en: "Got it! Now send me an image, which you'd like to take a style from."
+  ru: "Отлично, теперь пришли картинку, откуда я буду брать стиль."
+send_next_style_prompt:
+  en: "Got it! Send me the next one ({actual:d} of {total:d})."
+  ru: "Принял, пришли следующую картинку со стилем ({actual:d} из {total:d})."
+preserve_color_caption:
+  en: "☑ Preserve original content colors"
+  ru: "☑ Сохранять исходные цвета содержимого"
+dont_preserve_color_caption:
+  en: "☐ Preserve original content colors"
+  ru: "☐ Сохранять исходные цвета содержимого"
+invalid_format_prompt:
+  en: "Please attach an image or a file with an image."
+  ru: "Пришли изображение или файл с изображением."
+too_big_file_prompt:
+  en: "The image is too big - maximum 10MB is accepted."
+  ru: "Файл слишком большой, пришли что-то меньше 10 МБ."
+job_started:
+  en: "Doing the (re)styling, normally it takes about 15 minutes."
+  ru: "Выполняю стилизацию, обычно это занимает около 15-ти минут."
+job_progress:
+  en: "Doing the (re)styling - step {actual:d} of {total:d}."
+  ru: "Выполняю стилизацию - шаг {actual:d} из {total:d}."
+job_completed:
+  en: "Here's the result:"
+  ru: "Готово!"
+job_error:
+  en: "Damn, something went wrong:/ You can try again, if you want."
+  ru: "Вот досада, что-то пошло не так:/ Можешь попробовать снова."
+another_job_in_progress:
+  en: "Please wait for the last (re)styling to complete."
+  ru: "Последняя стилизация ещё не закончена, подожди пока."
+style_weight_caption:
+  en: "Style weight: *{value:.2}*. Decrease it to gain more light-weight effects, increase for more expressive ones."
+  ru: "Вес стиля: *{value:.2}*. Уменьши, чтобы получить более лёгкие эффекты, увеличь - для большей выразительности."
+style_scale_caption:
+  en: "Style scale: *{value:.2}*. Decrease it to apply the style to smaller parts of the content picture, increase to paint in larger strokes."
+  ru: "Масштаб стиля: *{value:.2}*. Уменьши, чтобы применять стиль к более мелким делатям. Увеличь, чтобы рисовать более крупными мазками."
+style_count_caption:
+  en: "A number of style pictures: *{count:d}*. Choose a number of times I should ask you to send a style picture before I start (re)styling. Create your own mix of styles!"
+  ru: "Количество картинок со стилем: *{count:d}*. Задай сколько раз я должен принять картинок со стилем перед тем, как начать стилизацию. Пробуй разные сочетания!"
+num_iter_caption:
+  en: "Processing step count: *{count:d}*. Choose smaller values for faster processing or larger values for deeper (re)styling."
+  ru: "Число шагов обработки: *{count:d}*. Выбирай меньшие значения, чтобы быстрее получить результат, большие - для более глубокой стилизации."
+img_size_caption:
+  en: "Size of a processed image: *{size:d}*. Choose smaller values for faster processing or larger values for better quality."
+  ru: "Размер обрабатываемого изображения: *{size:d}*. Чем меньше - тем быстрее, чем больше - тем качественнее."

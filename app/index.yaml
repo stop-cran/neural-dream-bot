@@ -1,0 +1,11 @@
+indexes:
+
+- kind: State
+  properties:
+  - name: chat_id
+  - name: started
+
+- kind: State
+  properties:
+  - name: chat_id
+  - name: job_name
